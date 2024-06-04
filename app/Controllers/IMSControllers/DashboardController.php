@@ -11,11 +11,6 @@ class DashboardController extends BaseController
         $data = [];
         return view('IMSViews/Dashboard/index', $data);
     }
-    public function feature()
-    {
-        $data = [];
-        return view('IMSViews/Dashboard/feature', $data);
-    }
     public function pricing()
     {
         $data = [];
